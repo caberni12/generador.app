@@ -240,6 +240,91 @@ button:hover{background:var(--btnHover)}
  aside{display:none}
  body{background:#fff}
 }
+
+/* ===========================
+   VERSION MOVIL TIPO TARJETA
+=========================== */
+
+@media (max-width: 768px){
+
+body{
+ flex-direction:column;
+}
+
+aside{
+ width:100%;
+ border-right:none;
+ border-bottom:1px solid var(--border);
+}
+
+main{
+ padding:12px;
+}
+
+#preview{
+ width:100%;
+}
+
+.page{
+ width:100%;
+ min-height:auto;
+}
+
+.label{
+ width:100% !important;
+ height:auto !important;
+ border-radius:18px;
+ box-shadow:0 10px 25px rgba(0,0,0,0.08);
+ padding:0;
+}
+
+.inner{
+ padding:18px;
+ gap:8px;
+}
+
+.empresa{
+ font-size:20px;
+}
+
+.pedido{
+ font-size:24px;
+}
+
+.bulto,
+.bulto-grande{
+ font-size:22px !important;
+}
+
+.qr canvas{
+ width:120px !important;
+ height:120px !important;
+}
+
+.field{
+ grid-template-columns:120px 1fr;
+ font-size:15px;
+ margin-bottom:6px;
+}
+
+.field .label-txt{
+ font-size:15px;
+}
+
+.field .value{
+ font-size:15px;
+}
+
+.semaforo{
+ margin:6px 0;
+}
+
+.progress{
+ height:6px;
+}
+
+}
+
 </style>
 </head>
 
